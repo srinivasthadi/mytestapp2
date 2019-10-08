@@ -9,13 +9,15 @@ import { HomeComponent } from './home/home.component';
 import { MaterialModule } from './material/material.module';
 import { FormdialogComponent } from './formdialog/formdialog.component';
 import { DialognewComponent } from './dialognew/dialognew.component';
+import { Test4dialogComponent } from './test4dialog/test4dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FormdialogComponent,
-    DialognewComponent
+    DialognewComponent,
+    Test4dialogComponent
   ],
   imports: [
     BrowserModule,
