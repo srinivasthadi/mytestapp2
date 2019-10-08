@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { MaterialModule } from './material/material.module';
 import { FormdialogComponent } from './formdialog/formdialog.component';
+import { DialognewComponent } from './dialognew/dialognew.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    FormdialogComponent
+    FormdialogComponent,
+    DialognewComponent
   ],
   imports: [
     BrowserModule,
