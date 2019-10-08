@@ -1,0 +1,35 @@
+<div>
+    {{heading}}
+</div>
+    
+<mat-card>    
+    <!-- Title of an Card -->    
+    <mat-card-title>    
+        Employees Form    
+    </mat-card-title>    
+    
+    <mat-card-content>    
+        <form [formGroup]="employeeForm" (submit)="onSubmit()">    
+            <table>    
+                <tr>    
+                    <td>    
+                        <mat-form-field class="demo-full-width">    
+                            <input matInput placeholder="First Name" formControlName="FirstName">    
+                        </mat-form-field>    
+                    </td>    
+                    <td>    
+                        <mat-form-field class="demo-full-width">    
+                            <input matInput placeholder="Last Name" formControlName="LastName">    
+                        </mat-form-field>    
+                    </td>    
+                </tr>    
+                <tr>    
+                    <td colspan="2" class="content-center">    
+                        <button mat-raised-button color="accent" style="margin: 5px">Submit</button>    
+                        <button mat-raised-button color="accent" style="margin: 5px">Clear</button>    
+                    </td>    
+                </tr>    
+            </table>    
+        </form>    
+    </mat-card-content>    
+</mat-card>
